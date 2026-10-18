@@ -1,0 +1,14 @@
+# PlatformIO
+.pio/
+.vscode/
+# KiCad
+*.kicad_prl
+*-backups/
+fp-info-cache
+*.bak
+_autosave-*
+gerbers/
+# Python
+__pycache__/
+*.pyc
+.venv/

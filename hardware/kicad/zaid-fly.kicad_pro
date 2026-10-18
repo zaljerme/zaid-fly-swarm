@@ -1,0 +1,73 @@
+{
+  "board": {
+    "design_settings": {
+      "rules": {
+        "min_clearance": 0.15,
+        "min_track_width": 0.15,
+        "min_via_diameter": 0.5,
+        "min_through_hole_diameter": 0.3
+      }
+    }
+  },
+  "meta": {
+    "filename": "zaid-fly.kicad_pro",
+    "version": 1
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "name": "Default",
+        "clearance": 0.15,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "name": "Power",
+        "clearance": 0.2,
+        "track_width": 0.6,
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      }
+    ],
+    "meta": {
+      "version": 3
+    },
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "VBAT"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "MOT1-"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "MOT2-"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "MOT3-"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "MOT4-"
+      }
+    ]
+  },
+  "schematic": {
+    "legacy_lib_dir": "",
+    "legacy_lib_list": []
+  },
+  "sheets": [
+    [
+      "ea61f230-12ef-554d-b68b-053a7b4ec8f7",
+      "Root"
+    ]
+  ]
+}

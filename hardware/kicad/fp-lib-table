@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ZaidFly")(type "KiCad")(uri "${KIPRJMOD}/ZaidFly.pretty")(options "")(descr "Zaid Fly footprints"))
+)
