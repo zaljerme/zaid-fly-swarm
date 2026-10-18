@@ -209,12 +209,5 @@ The full step-by-step guide (ordering, soldering, printing, assembly, tuning, an
 * **Arming**: a drone only arms with a live link and throttle at the bottom.
 * **Battery compensation**: motor output is scaled for battery sag, so a drone on a 3.6 V pack responds the same as one on a fresh 4.2 V pack.
 
-## Credits
 
-* The frame and cover are based on the open-source **ESP-FLY** design by **Max Imagination**, renamed for this build. Please respect the original license of the 3D models.
-* Reference build video: <https://www.youtube.com/watch?v=V_mZsiZcy7s>
-* Seeed Studio XIAO ESP32-S3, Espressif ESP-NOW, and the TDK InvenSense MPU-6050 datasheet.
 
-## License
-
-Firmware, software and hardware sources are under the [MIT License](LICENSE). The 3D models stay under their original author's license.
